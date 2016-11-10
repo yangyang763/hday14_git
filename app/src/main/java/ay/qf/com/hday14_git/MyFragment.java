@@ -17,6 +17,7 @@ public class MyFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         Log.i(TAG, "onCreateView: 我是小羊添加的Fragment");
+
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 }
